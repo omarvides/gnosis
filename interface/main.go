@@ -35,7 +35,7 @@ func (c car) getIsOn() bool {
 }
 
 func printStatus(v vehicle) {
-	fmt.Printf("The car is running? %t, it was manufactured on %d", v.getIsOn(), v.getYear())
+	fmt.Printf("The car is running? %t, it was manufactured on %d\n", v.getIsOn(), v.getYear())
 }
 
 func main() {
